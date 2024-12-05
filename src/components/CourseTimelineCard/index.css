@@ -1,0 +1,45 @@
+/* Write your CSS here */
+.course-container {
+  display: flex;
+  flex-direction: column;
+}
+.title-duration-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.course-title {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+.duration-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.circle-icons {
+  margin-right: 5px;
+}
+.duration-text {
+  color: #1e293b;
+  font-family: 'Roboto';
+}
+.description-text {
+  color: #171f46;
+  font-family: 'Roboto';
+}
+.taglist-container {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+.tag-list {
+  display: flex;
+  flex-direction: row;
+}
+.tag-name-text {
+  color: #171f46;
+  font-family: 'Roboto';
+}
